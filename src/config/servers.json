@@ -1,0 +1,44 @@
+{
+  "servers": [
+    {
+      "id": "dayz-1",
+      "name": "+101LOOT",
+      "serviceId": "20027395",
+      "enabled": true,
+      "itemDeliveryEnabled": false
+    },
+    {
+      "id": "dayz-2",
+      "name": "+100LOOT",
+      "serviceId": "18965639",
+      "enabled": true,
+      "itemDeliveryEnabled": false
+    },
+    {
+      "id": "dayz-3",
+      "name": "+97LOOT",
+      "serviceId": "17162740",
+      "enabled": true,
+      "itemDeliveryEnabled": false
+    },
+    {
+      "id": "dayz-4",
+      "name": "+98LOOT",
+      "serviceId": "16983181",
+      "enabled": true,
+      "itemDeliveryEnabled": false
+    },
+    {
+      "id": "dayz-5",
+      "name": "+99LOOT",
+      "serviceId": "16666129",
+      "enabled": true,
+      "itemDeliveryEnabled": false,
+      "admFilePath": "/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM",
+      "admDirectory": "/games/ni8985720_4/ftproot/dayzps/config",
+      "teleportShopEnabled": true,
+      "gameplayConfigPath": "/games/ni8985720_4/ftproot/dayzps/config/cfggameplay.json",
+      "customFolderPath": "/games/ni8985720_4/ftproot/dayzps/custom"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Category prices (coins per item)
+weapons=500
+tools=150
+containers=200
+clothes=100
+food=50
+drinks=50
+medical=150
+explosives=1000

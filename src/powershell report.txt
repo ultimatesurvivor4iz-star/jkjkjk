@@ -1,0 +1,1419 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\billy> cd "C:\Users\billy\dayz-discord-bot\src"
+PS C:\Users\billy\dayz-discord-bot\src> node index.js
+◇ injected env (17) from ..\.env
+Bot online as USautobot#1687
+[adm-feed] Watching all discovered ADM files every 60s.
+[adm-feed] Poll started at 2026-10-28T20:52:25.827Z.
+[adm-feed] Scanning /games/ni8985720_4/ftproot/dayzps/config for +99LOOT ADM files (filter="DayZServer_PS4_x64_").
+[nitrado] Listing directory: /games/ni8985720_4/ftproot/dayzps/config (search=DayZServer_PS4_x64_)
+[nitrado][DEBUG] response keys: [ 'entries' ]
+[nitrado][DEBUG] normalized directory entries: []
+[adm-feed] Scanning /games/ni8985720_4/ftproot/dayzps/config for +99LOOT ADM files (filter=null).
+[nitrado] Listing directory: /games/ni8985720_4/ftproot/dayzps/config
+Discord commands registered!
+[nitrado][DEBUG] response keys: [ 'entries' ]
+[nitrado][DEBUG] normalized directory entries: [
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_09-02-44.log",
+    "name": "crash_2026-10-25_09-02-44.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793192479,
+    "modified_at": 1792933395,
+    "accessed_at": 1792933395
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_11-02-33.log",
+    "name": "crash_2026-10-25_11-02-33.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793199684,
+    "modified_at": 1792940581,
+    "accessed_at": 1792940581
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_13-02-35.log",
+    "name": "crash_2026-10-25_13-02-35.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793206875,
+    "modified_at": 1792947785,
+    "accessed_at": 1792947785
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_15-02-41.log",
+    "name": "crash_2026-10-25_15-02-41.log",
+    "size": 4849,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792957590,
+    "accessed_at": 1792957590
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_17-02-56.log",
+    "name": "crash_2026-10-25_17-02-56.log",
+    "size": 52349,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792966700,
+    "accessed_at": 1792966700
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_19-02-39.log",
+    "name": "crash_2026-10-25_19-02-39.log",
+    "size": 1980,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792975589,
+    "accessed_at": 1792975589
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_21-02-36.log",
+    "name": "crash_2026-10-25_21-02-36.log",
+    "size": 64237,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792976586,
+    "accessed_at": 1792976586
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_23-02-31.log",
+    "name": "crash_2026-10-25_23-02-31.log",
+    "size": 12845,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792983780,
+    "accessed_at": 1792983780
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_01-02-29.log",
+    "name": "crash_2026-10-26_01-02-29.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1792990977,
+    "accessed_at": 1792990977
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_03-02-19.log",
+    "name": "crash_2026-10-26_03-02-19.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1792998168,
+    "accessed_at": 1792998168
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_05-02-23.log",
+    "name": "crash_2026-10-26_05-02-23.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793005370,
+    "accessed_at": 1793005370
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_06-22-07.log",
+    "name": "crash_2026-10-26_06-22-07.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793010152,
+    "accessed_at": 1793010152
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_07-02-47.log",
+    "name": "crash_2026-10-26_07-02-47.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793012592,
+    "accessed_at": 1793012592
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_09-02-16.log",
+    "name": "crash_2026-10-26_09-02-16.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793019760,
+    "accessed_at": 1793019760
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_11-02-24.log",
+    "name": "crash_2026-10-26_11-02-24.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793026968,
+    "accessed_at": 1793026968
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_13-02-43.log",
+    "name": "crash_2026-10-26_13-02-43.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793034191,
+    "accessed_at": 1793034191
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_15-02-36.log",
+    "name": "crash_2026-10-26_15-02-36.log",
+    "size": 7213,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793041386,
+    "accessed_at": 1793041386
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_17-02-30.log",
+    "name": "crash_2026-10-26_17-02-30.log",
+    "size": 2989,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793048578,
+    "accessed_at": 1793048578
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_19-02-26.log",
+    "name": "crash_2026-10-26_19-02-26.log",
+    "size": 73174,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793062805,
+    "accessed_at": 1793062805
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_21-02-29.log",
+    "name": "crash_2026-10-26_21-02-29.log",
+    "size": 8621,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793062977,
+    "accessed_at": 1793062977
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_23-02-32.log",
+    "name": "crash_2026-10-26_23-02-32.log",
+    "size": 4397,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793070180,
+    "accessed_at": 1793070180
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_01-02-27.log",
+    "name": "crash_2026-10-27_01-02-27.log",
+    "size": 4397,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793077375,
+    "accessed_at": 1793077375
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_03-02-36.log",
+    "name": "crash_2026-10-27_03-02-36.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793084584,
+    "accessed_at": 1793084584
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_05-02-42.log",
+    "name": "crash_2026-10-27_05-02-42.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793091789,
+    "accessed_at": 1793091789
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_07-02-34.log",
+    "name": "crash_2026-10-27_07-02-34.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793098981,
+    "accessed_at": 1793098981
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_09-02-35.log",
+    "name": "crash_2026-10-27_09-02-35.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793106182,
+    "accessed_at": 1793106182
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_11-02-27.log",
+    "name": "crash_2026-10-27_11-02-27.log",
+    "size": 19885,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793113375,
+    "accessed_at": 1793113375
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_13-02-23.log",
+    "name": "crash_2026-10-27_13-02-23.log",
+    "size": 14957,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793120571,
+    "accessed_at": 1793120571
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_15-02-25.log",
+    "name": "crash_2026-10-27_15-02-25.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793127773,
+    "accessed_at": 1793127773
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_17-02-26.log",
+    "name": "crash_2026-10-27_17-02-26.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793134972,
+    "accessed_at": 1793134972
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_19-02-36.log",
+    "name": "crash_2026-10-27_19-02-36.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793142184,
+    "accessed_at": 1793142184
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_21-02-43.log",
+    "name": "crash_2026-10-27_21-02-43.log",
+    "size": 17559,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793151058,
+    "accessed_at": 1793151058
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_23-02-47.log",
+    "name": "crash_2026-10-27_23-02-47.log",
+    "size": 1581,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793156596,
+    "accessed_at": 1793156596
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-28_01-02-51.log",
+    "name": "crash_2026-10-28_01-02-51.log",
+    "size": 1581,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793163800,
+    "accessed_at": 1793163800
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-28_03-02-44.log",
+    "name": "crash_2026-10-28_03-02-44.log",
+    "size": 3885,
+
+[adm-feed] +99LOOT: found 40 ADM files.
+[adm-feed] +99LOOT: newest ADM is /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 426140 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM: 426140 bytes, 2854 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 354463 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM: 354463 bytes, 2382 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 162709 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM: 162709 bytes, 1184 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 159787 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM: 159787 bytes, 1083 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 263874 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM: 263874 bytes, 1784 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 261505 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM: 261505 bytes, 1803 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 255807 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM: 255807 bytes, 1759 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 416644 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM: 416644 bytes, 2668 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 333043 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM: 333043 bytes, 2373 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 471568 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM: 471568 bytes, 3134 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 476373 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM: 476373 bytes, 3186 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 551961 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM: 551961 bytes, 3586 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 375872 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM: 375872 bytes, 2605 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 433346 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM: 433346 bytes, 2770 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 365863 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM: 365863 bytes, 2517 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 204194 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM: 204194 bytes, 1400 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 169321 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM: 169321 bytes, 1188 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 148153 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM: 148153 bytes, 1054 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 200577 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM: 200577 bytes, 1346 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 421313 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM: 421313 bytes, 2764 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 559936 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM: 559936 bytes, 3735 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 579629 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM: 579629 bytes, 3780 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 595212 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM: 595212 bytes, 3815 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 517548 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM: 517548 bytes, 3362 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 402539 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM: 402539 bytes, 2728 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 360828 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM: 360828 bytes, 2489 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 309158 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM: 309158 bytes, 2151 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 174409 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM: 174409 bytes, 1270 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 25788 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM: 25788 bytes, 196 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 62579 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM: 62579 bytes, 461 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 232250 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM: 232250 bytes, 1627 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 305267 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM: 305267 bytes, 1980 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 396424 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM: 396424 bytes, 2547 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 654817 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM: 654817 bytes, 4137 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 704121 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM: 704121 bytes, 4348 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 491943 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM: 491943 bytes, 3356 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 482662 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM: 482662 bytes, 3259 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 478967 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM: 478967 bytes, 3239 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 545353 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM: 545353 bytes, 3684 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 504690 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM: 504690 bytes, 3422 lines.
+[adm-feed] Baseline established; historical lines skipped.
+[adm-feed] Poll started at 2026-10-28T20:53:25.833Z.
+[adm-feed] Scanning /games/ni8985720_4/ftproot/dayzps/config for +99LOOT ADM files (filter="DayZServer_PS4_x64_").
+[nitrado] Listing directory: /games/ni8985720_4/ftproot/dayzps/config (search=DayZServer_PS4_x64_)
+[nitrado][DEBUG] response keys: [ 'entries' ]
+[nitrado][DEBUG] normalized directory entries: []
+[adm-feed] Scanning /games/ni8985720_4/ftproot/dayzps/config for +99LOOT ADM files (filter=null).
+[nitrado] Listing directory: /games/ni8985720_4/ftproot/dayzps/config
+[nitrado][DEBUG] response keys: [ 'entries' ]
+[nitrado][DEBUG] normalized directory entries: [
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_09-02-44.log",
+    "name": "crash_2026-10-25_09-02-44.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793192479,
+    "modified_at": 1792933395,
+    "accessed_at": 1792933395
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_11-02-33.log",
+    "name": "crash_2026-10-25_11-02-33.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793199684,
+    "modified_at": 1792940581,
+    "accessed_at": 1792940581
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_13-02-35.log",
+    "name": "crash_2026-10-25_13-02-35.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793206875,
+    "modified_at": 1792947785,
+    "accessed_at": 1792947785
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_15-02-41.log",
+    "name": "crash_2026-10-25_15-02-41.log",
+    "size": 4849,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792957590,
+    "accessed_at": 1792957590
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_17-02-56.log",
+    "name": "crash_2026-10-25_17-02-56.log",
+    "size": 52349,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792966700,
+    "accessed_at": 1792966700
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_19-02-39.log",
+    "name": "crash_2026-10-25_19-02-39.log",
+    "size": 1980,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792975589,
+    "accessed_at": 1792975589
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_21-02-36.log",
+    "name": "crash_2026-10-25_21-02-36.log",
+    "size": 64237,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792976586,
+    "accessed_at": 1792976586
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-25_23-02-31.log",
+    "name": "crash_2026-10-25_23-02-31.log",
+    "size": 12845,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214079,
+    "modified_at": 1792983780,
+    "accessed_at": 1792983780
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_01-02-29.log",
+    "name": "crash_2026-10-26_01-02-29.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1792990977,
+    "accessed_at": 1792990977
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_03-02-19.log",
+    "name": "crash_2026-10-26_03-02-19.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1792998168,
+    "accessed_at": 1792998168
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_05-02-23.log",
+    "name": "crash_2026-10-26_05-02-23.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793005370,
+    "accessed_at": 1793005370
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_06-22-07.log",
+    "name": "crash_2026-10-26_06-22-07.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793010152,
+    "accessed_at": 1793010152
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_07-02-47.log",
+    "name": "crash_2026-10-26_07-02-47.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793012592,
+    "accessed_at": 1793012592
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_09-02-16.log",
+    "name": "crash_2026-10-26_09-02-16.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793019760,
+    "accessed_at": 1793019760
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_11-02-24.log",
+    "name": "crash_2026-10-26_11-02-24.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214080,
+    "modified_at": 1793026968,
+    "accessed_at": 1793026968
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_13-02-43.log",
+    "name": "crash_2026-10-26_13-02-43.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793034191,
+    "accessed_at": 1793034191
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_15-02-36.log",
+    "name": "crash_2026-10-26_15-02-36.log",
+    "size": 7213,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793041386,
+    "accessed_at": 1793041386
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_17-02-30.log",
+    "name": "crash_2026-10-26_17-02-30.log",
+    "size": 2989,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793048578,
+    "accessed_at": 1793048578
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_19-02-26.log",
+    "name": "crash_2026-10-26_19-02-26.log",
+    "size": 73174,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214081,
+    "modified_at": 1793062805,
+    "accessed_at": 1793062805
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_21-02-29.log",
+    "name": "crash_2026-10-26_21-02-29.log",
+    "size": 8621,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793062977,
+    "accessed_at": 1793062977
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-26_23-02-32.log",
+    "name": "crash_2026-10-26_23-02-32.log",
+    "size": 4397,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793070180,
+    "accessed_at": 1793070180
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_01-02-27.log",
+    "name": "crash_2026-10-27_01-02-27.log",
+    "size": 4397,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793077375,
+    "accessed_at": 1793077375
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_03-02-36.log",
+    "name": "crash_2026-10-27_03-02-36.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793084584,
+    "accessed_at": 1793084584
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_05-02-42.log",
+    "name": "crash_2026-10-27_05-02-42.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793091789,
+    "accessed_at": 1793091789
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_07-02-34.log",
+    "name": "crash_2026-10-27_07-02-34.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793098981,
+    "accessed_at": 1793098981
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_09-02-35.log",
+    "name": "crash_2026-10-27_09-02-35.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793106182,
+    "accessed_at": 1793106182
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_11-02-27.log",
+    "name": "crash_2026-10-27_11-02-27.log",
+    "size": 19885,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793113375,
+    "accessed_at": 1793113375
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_13-02-23.log",
+    "name": "crash_2026-10-27_13-02-23.log",
+    "size": 14957,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214082,
+    "modified_at": 1793120571,
+    "accessed_at": 1793120571
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_15-02-25.log",
+    "name": "crash_2026-10-27_15-02-25.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793127773,
+    "accessed_at": 1793127773
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_17-02-26.log",
+    "name": "crash_2026-10-27_17-02-26.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793134972,
+    "accessed_at": 1793134972
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_19-02-36.log",
+    "name": "crash_2026-10-27_19-02-36.log",
+    "size": 877,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793142184,
+    "accessed_at": 1793142184
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_21-02-43.log",
+    "name": "crash_2026-10-27_21-02-43.log",
+    "size": 17559,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793151058,
+    "accessed_at": 1793151058
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-27_23-02-47.log",
+    "name": "crash_2026-10-27_23-02-47.log",
+    "size": 1581,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793156596,
+    "accessed_at": 1793156596
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-28_01-02-51.log",
+    "name": "crash_2026-10-28_01-02-51.log",
+    "size": 1581,
+    "owner": "ni8985720_4",
+    "group": "ni8985720_4",
+    "chmod": "100664",
+    "created_at": 1793214083,
+    "modified_at": 1793163800,
+    "accessed_at": 1793163800
+  },
+  {
+    "type": "file",
+    "path": "/games/ni8985720_4/ftproot/dayzps/config/crash_2026-10-28_03-02-44.log",
+    "name": "crash_2026-10-28_03-02-44.log",
+    "size": 3885,
+
+[adm-feed] +99LOOT: found 40 ADM files.
+[adm-feed] +99LOOT: newest ADM is /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 426140 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM: 426140 bytes, 2854 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_13-02-46.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 354463 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM: 354463 bytes, 2382 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_11-02-39.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 162709 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM: 162709 bytes, 1184 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_09-03-08.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 159787 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM: 159787 bytes, 1083 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_07-02-43.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 263874 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM: 263874 bytes, 1784 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_05-02-35.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 261505 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM: 261505 bytes, 1803 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_03-02-49.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 255807 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM: 255807 bytes, 1759 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-28_01-02-57.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 416644 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM: 416644 bytes, 2668 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_23-02-52.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 333043 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM: 333043 bytes, 2373 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_21-02-49.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 471568 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM: 471568 bytes, 3134 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_19-02-41.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 476373 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM: 476373 bytes, 3186 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_17-02-31.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 551961 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM: 551961 bytes, 3586 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_15-02-30.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 375872 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM: 375872 bytes, 2605 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_13-02-28.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 433346 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM: 433346 bytes, 2770 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_11-02-33.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 365863 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM: 365863 bytes, 2517 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_09-02-41.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 204194 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM: 204194 bytes, 1400 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_07-02-39.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 169321 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM: 169321 bytes, 1188 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_05-02-48.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 148153 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM: 148153 bytes, 1054 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_03-02-41.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 200577 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM: 200577 bytes, 1346 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-27_01-02-32.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 421313 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM: 421313 bytes, 2764 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_23-02-37.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 559936 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM: 559936 bytes, 3735 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_21-02-34.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 579629 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM: 579629 bytes, 3780 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_19-02-31.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 595212 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM: 595212 bytes, 3815 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_17-02-35.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 517548 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM: 517548 bytes, 3362 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_15-02-41.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 402539 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM: 402539 bytes, 2728 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_13-02-48.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 360828 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM: 360828 bytes, 2489 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_11-02-30.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 309158 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM: 309158 bytes, 2151 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_09-02-21.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 174409 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM: 174409 bytes, 1270 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_07-02-52.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 25788 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM: 25788 bytes, 196 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_06-22-13.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 62579 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM: 62579 bytes, 461 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_05-02-28.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 232250 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM: 232250 bytes, 1627 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_03-02-25.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 305267 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM: 305267 bytes, 1980 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-26_01-02-34.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 396424 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM: 396424 bytes, 2547 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_23-02-36.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 654817 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM: 654817 bytes, 4137 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_21-02-42.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 704121 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM: 704121 bytes, 4348 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_19-02-44.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 491943 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM: 491943 bytes, 3356 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_17-03-02.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 482662 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM: 482662 bytes, 3259 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_15-02-46.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 478967 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM: 478967 bytes, 3239 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_13-02-40.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 545353 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM: 545353 bytes, 3684 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_11-02-38.ADM: fresh=0, classified=0, sent=0, types={}.
+[adm-feed][DESTINATION] server=+99LOOT action=readRemoteFile file="/games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM"
+[nitrado] Requesting download token for: /games/ni8985720_4/ftproot/dayzps/config/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM
+[nitrado] Download-token response keys: [ 'token' ]
+[nitrado] Downloading remote file...
+[nitrado] Remote file downloaded: 504690 bytes.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM: 504690 bytes, 3422 lines.
+[adm-feed] +99LOOT/DayZServer_PS4_x64_2026-10-25_09-02-49.ADM: fresh=0, classified=0, sent=0, types={}.
